@@ -8,7 +8,7 @@ function on_youtube() {
     onImage = false;
     onGoogle = false;
     document.getElementsByName('searchbox')[0].placeholder = 'Search YouTube';
-    document.getElementById("search").style.borderBottom = "4px #ed4343 solid";
+    document.getElementById("search").style.borderBottom = "4px #b32400 solid";
     document.title = "Search Youtube";
 
 }
@@ -19,7 +19,7 @@ function on_image() {
     onYoutube = false;
     onGoogle = false;
     document.getElementsByName('searchbox')[0].placeholder = 'Search Google Images';
-    document.getElementById('search').style.borderBottom = "4px #43c1ef solid";
+    document.getElementById('search').style.borderBottom = "4px #0073e6 solid";
     document.title = "Google Images";
 
 }
@@ -30,8 +30,10 @@ function on_google() {
     onYoutube = false;
     onGoogle = true;
     document.getElementsByName('searchbox')[0].placeholder = 'Search Google';
-    document.getElementById("search").style.borderBottom = "4px #efd10e solid";
-    document.title = "Google";
+    document.getElementById("search").style.borderBottom = "4px #2eb82e solid";
+    document.getElementsByName('searchbox')[0].style.color = 'red';
+
+    document.title = "Google Search";
 
 }
 
