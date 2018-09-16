@@ -37,6 +37,11 @@ function on_google() {
 
 }
 
+var url_social = {
+    google: "https://www.google.com/search?q=",
+    googleImages: "https://www.google.com/search?tbm=isch&q=",
+    youtube: "https://www.youtube.com/results?search_query="
+}
 
 function open_url(e) {
 
@@ -66,12 +71,15 @@ function open_url(e) {
             url = youtubeSearchUrl.concat(input);
 
         default:
-            return;
+            url = googleImagesSearchUrl.concat(input);
+
     }
 
    
 
     if (e.keyCode == 13 && input != "") {
+        console.log("Enter Clicked!");
+        console.log(url);
         window.location = url;
     }
 
