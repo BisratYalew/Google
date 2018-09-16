@@ -10,6 +10,31 @@
 
 <body>  
 
+    <div id="searchPage">
+
+        <div id="ontopmenu">
+
+            <button class="topmenu" onclick="on_google();">Web</button>
+
+            <button class="topmenu" onclick="on_image();">Images</button>
+
+            <button class="topmenu" onclick="on_youtube();">YouTube</button>
+            
+            <a class="topmenu" href="https://www.google.com/maps">Maps</a>
+
+            <a class="topmenu" href="https://drive.google.com">Drive</a>
+
+            <a class="topmenu" href="https://www.google.com/calendar">Calendar</a>
+
+            <a class="topmenu" href="https://mail.google.com">Gmail</a>
+            
+
+        </div>
+
+        <input id="search" name="searchbox" type="text" autocomplete="off" maxlength="255" placeholder="Google" onkeydown="return open_url(event);" autofocus/>
+
+    </div>
+
     <footer class="footer-distributed">
 
         <div class="footer-right">
