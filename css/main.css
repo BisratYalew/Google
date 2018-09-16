@@ -9,24 +9,24 @@ html {
 }
 
 #ontopmenu {
-    margin: 0% 2% 0% 2%;
+    margin: 1% 2% 0% 7%;
 }
 
 .topmenu {
     margin: 1% 0% 0% 0%;
-    padding: 0% 0.3% 0% 0.3%;
+    padding: 0% 0.5% 0% 0.5%;
     font-family: 'Arial';
     text-decoration: none;
     background-color: transparent;
     border: none;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     color: #003326;
     display: inline-block;
 }
 
 .topmenu:hover {
     text-decoration: underline;
-    font-size: 2.0vw;
+    font-size: 2.1vw;
 }
 
 #search {
