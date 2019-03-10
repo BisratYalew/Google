@@ -4,8 +4,6 @@ var onYoutube = false;
 
 function on_youtube() {
 
-    console.log("ON YOUTUBE CLICKED")
-
     onYoutube = true;
     onImage = false;
     onGoogle = false;
@@ -24,7 +22,7 @@ function on_image() {
     onGoogle = false;
     document.getElementsByName('searchbox')[0].placeholder = 'Search Google Images';
     document.getElementById('search').style.borderBottom = "4px #0073e6 solid";
-    document.getElementsByName('searchbox')[0].style.color = '#0073e6';
+    document.getElementsByName('searchbox')[0].style.color = '#602020';
 
     document.title = "Google Images";
 
