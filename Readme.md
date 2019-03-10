@@ -19,7 +19,16 @@ You can easily find the following on the top menu:
     - Gmail
 
 ## Screenshot
-![Google Page Screenshot](images/screenshot.jpg)
+![Google Page Screenshot](images/screenshot-1.jpg)
 
+## Contributing
 
-* Thank You!
+Feel free to contribute and send pull requests. **Not completed will update faster!**
+
+## Author
+
+* [BisratYalew](https://bisratyalew.github.io)
+
+## Licence
+
+#### MIT
