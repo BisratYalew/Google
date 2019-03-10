@@ -20,7 +20,7 @@ html {
     background-color: transparent;
     border: none;
     font-size: 1.8vw;
-    color: #003326;
+    color: #602020;
     display: inline-block;
 }
 
@@ -38,12 +38,12 @@ html {
     width: 80vw;
     background-color: #df9f9f;
     border: 0px #000 solid;
-    border-bottom: 4px #2eb82e solid;
+    border-bottom: 4px #602020 solid;
     border-radius: 3px;
 }
 
 #search[type=text] {
-    color: #003326;
+    color: #602020;
     padding: 1% 2%;
     font-family: 'Roboto', sans-serif;
     font-size: 4.5vw;
@@ -51,19 +51,19 @@ html {
 
 #search::-webkit-input-placeholder {
     text-align: left;
-    color: #003326;
+    color: #602020;
     opacity: 1;
 }
 
 #search::-moz-placeholder {
     text-align: left;
-    color: #003326;
+    color: #602020;
     opacity: 1;
 }
 
 #search:-ms-input-placeholder {
     text-align: left;
-    color: #003326;
+    color: #602020;
     opacity: 1;
 }
 
