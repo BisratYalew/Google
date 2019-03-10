@@ -5,7 +5,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #e6ffe6;
+    background-color: #fff;
 }
 
 #ontopmenu {
@@ -36,7 +36,7 @@ html {
     transform: translate(-50%, -50%);
     height: 7vw;
     width: 80vw;
-    background-color: #ccffcc;
+    background-color: #df9f9f;
     border: 0px #000 solid;
     border-bottom: 4px #2eb82e solid;
     border-radius: 3px;
