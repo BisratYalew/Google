@@ -81,11 +81,10 @@ function open_url(e) {
             url = googleSearchUrl.concat(input);
 
     }
-
-   
+ 
 
     if (e.keyCode == 13 && input != "") {
-        window.location = url;
+        window.open(url, '_blank');
     }
 
 }
